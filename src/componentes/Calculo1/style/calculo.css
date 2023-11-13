@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to left, #42275a, #734b6d);
+  font-family: "Arial", sans-serif;
+}
+
+.envolverr {
+  max-width: 70%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin: 1% 0;
+  padding: 20px;
+  margin: auto;
+  margin-top: 4%;
+}
+.envolverr .corpo {
+  margin: 1% 0;
+  padding: 20px;
+  background-color: #ffffff;
+  color: black;
+  flex-direction: column;
+}
+.envolverr #titulo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.envolverr #inputs,
+.envolverr #conteudo_list {
+  width: 100%;
+  text-align: center;
+}
+.envolverr #inputs .inputs,
+.envolverr #conteudo_list .inputs {
+  justify-content: center;
+  display: block;
+}
+.envolverr #inputs input,
+.envolverr #conteudo_list input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.envolverr #inputs #botao,
+.envolverr #conteudo_list #botao {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.envolverr #inputs #botao:hover,
+.envolverr #conteudo_list #botao:hover {
+  background-color: #27ae60;
+}
+.envolverr #inputs hr,
+.envolverr #conteudo_list hr {
+  border: 1px solid #fff;
+  margin: 20px 0;
+}
+.envolverr #inputs #lista,
+.envolverr #conteudo_list #lista {
+  list-style-type: none;
+  padding: 0;
+}
+.envolverr #inputs #lista #consumo-lista,
+.envolverr #conteudo_list #lista #consumo-lista {
+  margin: 10px 0;
+}
+.envolverr #inputs #botao_baixo_cont,
+.envolverr #conteudo_list #botao_baixo_cont {
+  margin-top: 20px;
+}
+.envolverr #inputs #botao_baixo_cont #botao_baixo,
+.envolverr #conteudo_list #botao_baixo_cont #botao_baixo {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.envolverr #inputs #botao_baixo_cont #botao_baixo:hover,
+.envolverr #conteudo_list #botao_baixo_cont #botao_baixo:hover {
+  background-color: #27ae60;
+}/*# sourceMappingURL=calculo.css.map */

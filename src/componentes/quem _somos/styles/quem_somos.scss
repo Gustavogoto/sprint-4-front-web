@@ -1,0 +1,35 @@
+$font-family_1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$background-color_1: linear-gradient(to left,#42275a, #734b6d);
+$font-color_1: rgb(212, 208, 208);
+$font-color_2: rgb(0, 0, 0);
+
+#conteudo_page {
+	padding: 10vh;
+	text-align: left;
+	background-image: $background-color_1;
+}
+#titulo_Quem_somos {
+	font-weight: bold;
+	text-align: center;
+	margin: 0 5vh 5vh 5vh;
+	color: $font-color_1;
+}
+
+#txt_Quem_somos {
+	font-size: 2.8vh;
+	color: $font-color_2;
+}
+
+#subtitulo_texto {
+	font-size: 2.5vh;
+	text-align: center;
+	padding: 3vh 0 3vh 0;
+	font-weight: 500;
+	font-family: $font-family_1;
+	color: $font-color_1;
+}
+
+#list {
+	margin: 6vh 6vh 4vh 6vh;
+	color: $font-color_2;
+}

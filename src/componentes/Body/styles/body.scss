@@ -1,0 +1,43 @@
+$font-family_1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-color_1: rgb(212, 208, 208);
+$font-color_2: rgb(0, 0, 0);
+$background-color_1: linear-gradient(to left,#42265a, #734b6d7b);
+
+.fundo_titulo{
+	background-image: $background-color_1;
+}
+
+.Beneficios {
+	padding: 10vh;
+	text-align: center;
+}
+#beneficios-titulo {
+	text-align: center;
+	padding-top: 7vh;
+	font-weight: 1000;
+	font-family: $font-family_1;
+	color: $font-color_1;
+}
+#beneficios-paragrafo {
+	letter-spacing: 1px;
+	padding: 4vh;
+	color: $font-color_2;
+}
+#beneficios-titulo-topico {
+	border: 1px solid rgb(26, 26, 26);
+	border-radius: 40px 10px 40px 5px;;
+	font-size: 5vh;
+	padding: 3vh;
+	margin-top: 10vh;
+	text-align: center;
+	font-weight: 1000;
+	font-family: $font-family_1;
+	color: $font-color_1;
+}
+.btn {
+	margin-top: 7vh;
+}
+
+#img_beneficios{
+	border-radius: 25%;
+}

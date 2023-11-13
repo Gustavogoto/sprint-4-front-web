@@ -1,0 +1,42 @@
+.fundo_titulo {
+  background-image: linear-gradient(to left, #42265a, rgba(115, 75, 109, 0.4823529412));
+}
+
+.Beneficios {
+  padding: 10vh;
+  text-align: center;
+}
+
+#beneficios-titulo {
+  text-align: center;
+  padding-top: 7vh;
+  font-weight: 1000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(212, 208, 208);
+}
+
+#beneficios-paragrafo {
+  letter-spacing: 1px;
+  padding: 4vh;
+  color: rgb(0, 0, 0);
+}
+
+#beneficios-titulo-topico {
+  border: 1px solid rgb(26, 26, 26);
+  border-radius: 40px 10px 40px 5px;
+  font-size: 5vh;
+  padding: 3vh;
+  margin-top: 10vh;
+  text-align: center;
+  font-weight: 1000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(212, 208, 208);
+}
+
+.btn {
+  margin-top: 7vh;
+}
+
+#img_beneficios {
+  border-radius: 25%;
+}/*# sourceMappingURL=body.css.map */
